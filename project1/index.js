@@ -10,7 +10,13 @@ import BlinkApp from './BlinkApp';
 import LotsOfStyles from './LotsOfStyles';
 import FlexDimensionsBasics from './FlexDimensionsBasics';
 import FixedDimensionsBasics from './FixedDimensionsBasics';
+import PizzaTranslator from './PizzaTranslator';
+
+
+import FlexDirectionBasics from './FlexDirectionBasics';
+
+
 import LotsOfGreetings from './LotsOfGreetings';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => FlexDimensionsBasics);
+AppRegistry.registerComponent(appName, () => PizzaTranslator);
