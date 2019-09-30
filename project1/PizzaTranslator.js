@@ -11,7 +11,7 @@ export default class PizzaTranslator extends Component {
         return (
             <View style={{padding: 10}}>
                 <TextInput
-                    style={{height: 40}}
+                    style={{height: 80}}
                     placeholder="Type here to translate!"
                     onChangeText={(text) => this.setState({text})}
                     value={this.state.text}
